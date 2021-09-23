@@ -27,12 +27,12 @@
     ]
   },
   "projects": {
-    "frontend-file-reader-test": {
+    "frontend-test-file-explorer": {
       "tags": []
     },
-    "frontend-file-reader-test-e2e": {
+    "frontend-test-file-explorer-e2e": {
       "tags": [],
-      "implicitDependencies": ["frontend-file-reader-test"]
+      "implicitDependencies": ["frontend-test-file-explorer"]
     }
   }
 }

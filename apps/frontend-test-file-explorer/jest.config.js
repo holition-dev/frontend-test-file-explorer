@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'frontend-file-reader-test',
+  displayName: 'frontend-test-file-explorer',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -8,7 +8,7 @@ module.exports = {
       stringifyContentPathRegex: '\\.(html|svg)$',
     },
   },
-  coverageDirectory: '../../coverage/apps/frontend-file-reader-test',
+  coverageDirectory: '../../coverage/apps/frontend-test-file-explorer',
   transform: {
     '^.+\\.(ts|js|html)$': 'jest-preset-angular',
   },
